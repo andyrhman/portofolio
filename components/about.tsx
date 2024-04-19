@@ -23,7 +23,7 @@ export default function About() {
         <span className="font-medium">Informatika </span>
         di <span className="font-medium">Universitas Siber Asia</span>. Saat
         ini, saya tengah aktif mencari{" "}
-        <span className="italic">peluang magang</span>
+        <span className="italic">peluang magang </span>
         untuk mengasah kemampuan dan mendapatkan pengalaman profesional di dunia
         teknologi informasi. Selama masa studi, saya telah mengembangkan
         keahlian dalam berbagai Bahasa Pemrograman, termasuk{" "}
@@ -38,10 +38,10 @@ export default function About() {
         untuk bekerja dalam tim dan memecahkan masalah secara efektif.
       </p>
       <p>
-        <span className="italic">Ketika saya tidak sedang coding</span>, saya
+        Ketika saya tidak sedang coding, saya
         menikmati membaca novel, menonton film, dan memancing. Saya juga menikmati{" "}
         <span className="font-medium">belajar hal-hal baru</span>. Saat ini
-        saya sedang mempelajari tentang{" "}
+        saya sedang mempelajari{" "}
         <span className="font-medium">bahasa arab</span>. Saya juga
         sedang belajar cara bermain ukulele.
       </p>
