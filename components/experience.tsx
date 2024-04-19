@@ -18,7 +18,7 @@ export default function Experience() {
   return (
     <section id="pengalaman" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>Pengalaman Saya</SectionHeading>
-      <VerticalTimeline lineColor="">
+      <VerticalTimeline lineColor={theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)"}>
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
