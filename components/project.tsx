@@ -48,7 +48,7 @@ export default function Project({
             ))}
           </ul>
           <a href={githubUrl} className="text-blue-600 hover:underline mt-2" target="_blank">
-            Lihat di GitHub
+            Lihat di GitHub →
           </a>
         </div>
 
