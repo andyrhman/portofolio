@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import adminshop from "@/public/adminshop.png";
 
 export const links = [
   {
@@ -12,8 +13,8 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "About",
-    hash: "#about",
+    name: "Tentang",
+    hash: "#tentang",
   },
   {
     name: "Projects",
@@ -24,63 +25,66 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Pengalaman",
+    hash: "#pengalaman",
   },
   {
-    name: "Contact",
-    hash: "#contact",
+    name: "Kontak",
+    hash: "#kontak",
   },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Kuliah di Universitas Siber Asia",
+    location: "Jakarta Selatan",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Saya memulai kuliah di UNSIA sejak 2022 dan sampai sekarang masih kuliah di sana. Pada masa kuliah ini saya mengasah kemampuan pemrograman saya dengan belajar Machine Learning, DevOps & Backend API Server",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 - Sekarang",
   },
+  {
+    title: "SMA NEGERI 3 PALOPO",
+    location: "Kota Palopo, Sulawesi Selatan",
+    description:
+      "Saya bersekolah di SMA 3 Palopo dan lulus pada tahun 2021. Di masa SMA saya mencoba pertama kali Bahasa Pemrograman saya yaitu Python, di Python saya mencoba berbagai hal seperti membuat Game menggunakan PythonTurtle & Membuat website menggunakan Django",
+    icon: React.createElement(LuGraduationCap),
+    date: "2018 - 2021",
+  }
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "QuizzA",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Saya terinspirasi membuat website ini dari website populer membuat quiz seperti Quizziz & Kahoot",
+    tags: ["React", "Next.js", "PostgreSQL", "Tailwind", "TypeScript", "Nest.js"],
     imageUrl: corpcommentImg,
+    githubUrl: "https://github.com/andyrhman/nestjs-quiz-server",
   },
   {
-    title: "rmtDev",
+    title: "Shopyfy Admin",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Ini project favorit saya karena memiliki banyak tantangan ketika membuatnya, saya terinspirasi dari Shopee & Tokopedia",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux", "Nest.js", "Node.js", "PostgreSQL"],
+    imageUrl: adminshop,
+    githubUrl: "https://github.com/andyrhman/nestjs-shop-admin",
+  },
+  {
+    title: "Shopyfy Client",
+    description:
+      "Ini project favorit saya karena memiliki banyak tantangan ketika membuatnya, saya terinspirasi dari Shopee & Tokopedia",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux", "Nest.js", "Node.js", "PostgreSQL"],
     imageUrl: rmtdevImg,
+    githubUrl: "https://github.com/andyrhman/nestjs-shop-client",
   },
   {
-    title: "Word Analytics",
+    title: "Autentikasi",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Ini adalah project pertama Python Django saya membuat Server API autentikasi pengguna. Menggunakan JWT Refresh & Access Token",
+    tags: ["Python", "Django", "PostgreSQL"],
     imageUrl: wordanalyticsImg,
+    githubUrl: "https://github.com/andyrhman/django-auth",
   },
 ] as const;
 
@@ -91,17 +95,16 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Nest.js",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+  "TypeORM",
   "MongoDB",
+  "Mongoose",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Django"
 ] as const;

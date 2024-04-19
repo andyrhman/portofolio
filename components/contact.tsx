@@ -9,11 +9,11 @@ import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
 
 export default function Contact() {
-  const { ref } = useSectionInView("Contact");
+  const { ref } = useSectionInView("Kontak");
 
   return (
     <motion.section
-      id="contact"
+      id="kontak"
       ref={ref}
       className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
       initial={{
@@ -29,14 +29,14 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Contact me</SectionHeading>
+      <SectionHeading>Kontak Saya</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
+        Kontak saya langsunng di{" "}
         <a className="underline" href="mailto:example@gmail.com">
-          example@gmail.com
+          andyrahman989@gmail.com
         </a>{" "}
-        or through this form.
+        atau dari From ini.
       </p>
 
       <form
@@ -58,12 +58,12 @@ export default function Contact() {
           type="email"
           required
           maxLength={500}
-          placeholder="Your email"
+          placeholder="Email Anda"
         />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="message"
-          placeholder="Your message"
+          placeholder="Pesan Anda"
           required
           maxLength={5000}
         />
